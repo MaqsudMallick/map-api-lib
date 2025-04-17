@@ -1,0 +1,29 @@
+{
+  "name": "@zendothub/zendefense-map",
+  "version": "1.0.13",
+  "description": "zendefense map",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "prepublishOnly": "pnpm build"
+  },
+  "engines": {
+    "pnpm": ">=9.0.0"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.7.9",
+    "express": "^4.21.2",
+    "joi": "^17.13.3",
+    "sequelize-typescript": "^2.1.6",
+    "typescript": "^5.7.3"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.0"
+  }
+}
