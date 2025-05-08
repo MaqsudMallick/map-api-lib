@@ -1,7 +1,7 @@
 {
-  "name": "@zendothub/zendefense-map",
-  "version": "1.0.13",
-  "description": "zendefense map",
+  "name": "@maqsudmallick/map-api",
+  "version": "0.0.1",
+  "description": "map api",
   "main": "dist/index.js",
   "scripts": {
     "build": "tsc",
