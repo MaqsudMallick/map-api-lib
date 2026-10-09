@@ -1,0 +1,7 @@
+/consumer/
+/node_modules/
+.npmrc
+*-lock.json
+/src/
+*.md
+*.json
